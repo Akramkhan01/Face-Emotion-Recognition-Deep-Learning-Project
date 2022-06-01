@@ -65,7 +65,20 @@ Most of the publications which achieved state-of-the-art accuracies on FER2013 u
 ![l1](https://user-images.githubusercontent.com/78207836/171470645-c33d7296-bc0b-4cfe-9d6e-d6d99ccf19c6.png)
 ![l2](https://user-images.githubusercontent.com/78207836/171470680-a6feb076-42dd-41f9-8554-3f3f4b304583.png)
 
+=========================================================================================================
 
+# Web APP
+Rather than take a purely theoretical approach, we thought it would be challenging and novel to apply our work to the real world by developing a web app to run our model on-device in real-time. We deployed the app in Heroku. If you see in the starting section of GitHub repo you see that all the requirement files are there for creating an app on Heroku of name “face-emotion-recognition-off”. But due to high slug size the buffering takes time so we have run our app working on local and it ran properly and app is also fine also we’ve included video on GitHub repo.
+HerokuLink: - https://face-emotion-recognition-akram.herokuapp.com/
 
+==========================================================================================================
 
+CONCLUSION
+● We used different models but the Custom CNN model works pretty fine because it gives good accuracy result on test dataset.
+
+● We build the WebApp using Streamlit and deployed in Heroku.
+
+● The model which was created by custom CNN model gave training accuracy of 71% and test accuracy of 68%.
+
+● I have also included the video of my WebApp working in Local.
 
