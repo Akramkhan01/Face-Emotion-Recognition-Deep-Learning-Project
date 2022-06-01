@@ -57,7 +57,15 @@ Thus, I decided that I will deploy the model.
 
 RESULTS / DISCUSSION Accuracy-Driven Models Table 1 shows the accuracies our best models achieved on the FER2013 private test dataset.
 
-<img width="206" alt="Model train" src="https://user-images.githubusercontent.com/78207836/171470236-4c445388-7729-4434-b164-deacf74bb8e4.png">
+![m1](https://user-images.githubusercontent.com/78207836/171470449-0bf8571f-a4c4-4ec2-b449-fd019263eada.png)
+![m2](https://user-images.githubusercontent.com/78207836/171470483-d1c3c265-90e4-49a9-84fd-3359e7be8294.png)
+
+Most of the publications which achieved state-of-the-art accuracies on FER2013 utilized auxiliary training data. Table 1 demonstrates our accuracy gains from employing auxiliary data with care taken to avoid dataset bias. It also depicts our success in implementing class weighting, which significantly increased accuracies on frequently misclassified emotions. Table 2 demonstrates the weighted average of precision, Recall, F1 score parameters of the confusion matrix. From the table we can conclude that the best F1 score was obtained by CNN model.
+
+![l1](https://user-images.githubusercontent.com/78207836/171470645-c33d7296-bc0b-4cfe-9d6e-d6d99ccf19c6.png)
+![l2](https://user-images.githubusercontent.com/78207836/171470680-a6feb076-42dd-41f9-8554-3f3f4b304583.png)
+
+
 
 
 
