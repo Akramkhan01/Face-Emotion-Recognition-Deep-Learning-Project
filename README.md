@@ -53,5 +53,11 @@ One drawback of the system is the some Disgust faces are showing Neutral .Becaus
 Thus, I decided that I will deploy the model.
 
 
+![Rest](https://user-images.githubusercontent.com/78207836/171470084-d25dd4f2-d6d6-4d43-9a2e-870f26e27c74.png)
+
+RESULTS / DISCUSSION Accuracy-Driven Models Table 1 shows the accuracies our best models achieved on the FER2013 private test dataset.
+
+<img width="206" alt="Model train" src="https://user-images.githubusercontent.com/78207836/171470236-4c445388-7729-4434-b164-deacf74bb8e4.png">
+
 
 
